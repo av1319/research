@@ -1,0 +1,20 @@
+package filehandling;
+
+public class Student {
+
+	String id;
+	String name;
+	String Address;
+	public Student(String id, String name, String address) {
+		super();
+		this.id = id;
+		this.name = name;
+		Address = address;
+	}
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", Address=" + Address
+				+ "]";
+	}
+	
+	
+}
